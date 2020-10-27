@@ -1,0 +1,8 @@
+name: "ghexample"
+description: "ghexample"
+
+runs:
+  using: composite
+  steps:
+  - run: go run ghexample.go 
+    shell: bash
